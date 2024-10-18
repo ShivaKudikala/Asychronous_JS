@@ -1,0 +1,48 @@
+
+/* *********For whole body******* */
+body{
+    background-image: url(Background-asyncawait.jpg);
+    background-size: cover;
+}
+.fulldiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+/* *******Styles For Button ************ */
+.click-btn{
+    margin-top: 150px;
+    background-image: linear-gradient(to right, #0cebeb 0%, #20e3b2  51%, #0cebeb  100%);
+    border: 1px solid black;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: black;            
+    border-radius: 10px;
+    font-weight: bold;
+    font-family: sans-serif;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.click-btn:hover {
+    background-position: right center;
+    color: #fff;
+    text-decoration: none;
+}
+
+/* ********Styles for Revealed Content********* */
+.content-div{
+    display: none;
+    background-color: rgb(139, 125, 228);
+    padding: 3%;
+    margin: 2%;
+    overflow-y: auto;
+    max-height: 300px;
+    border: 1px solid rgb(118, 236, 22);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+ 
